@@ -19,7 +19,7 @@ const Projects = [
     Features:
       " Signup | Login | Admin Dashboard | Courses CRUD | DRM Protection | User CRUD",
     TechStack: " React.js | Node.js | Express.js | MongoDB | MUI | VideoCipher",
-    Live: "https://weak-lime-tadpole-hat.cyclic.app/courses",
+    Live: "https://weak-lime-tadpole-hat.cyclic.app",
     Github: "https://github.com/anujrawat22/LMS-backend",
     images: [lmsLandingPage, lmsDashboard, lmsAddcourse],
   },
