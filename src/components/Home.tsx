@@ -33,7 +33,7 @@ function Home() {
           <h1 className=" sm:text-5xl xs:text-4xl font-extrabold text-white">
             Hey ,I'm <span className=" text-orange-500">Anuj</span>
           </h1>
-          <p className="sm:my-5 text-white text-xl">A Full Stack Developer</p>
+          <p className="sm:my-5 text-white text-xl">Full Stack Developer</p>
           <p className="text-white">
             An ambitious Full Stack Developer who is comfortable working with
             both front-end and back-end technologies. 1200+ hours of coding and
