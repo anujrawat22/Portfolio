@@ -48,14 +48,7 @@ function About() {
         >
           <div className="w-full lg:h-1/2 xs:h-full xs:px-5 sm:p-12 text-purple-900 text-center">
             <p className="font-medium">
-              As a MERN stack developer, my expertise lies in creating robust,
-              dynamic, and scalable web applications using React , Node.js ,
-              Redux , Experss.js , PostgressSQL and MongoDB . I specialize in
-              building full-stack web applications with a focus on delivering
-              exceptional user experiences. I am passionate about
-              creating high-quality, user-friendly web applications that solve
-              real-world problems and look forward to working with you on your
-              next project
+            As a MERN stack developer, the expertise extends to creating robust, dynamic, and scalable web applications utilizing technologies such as React, Node.js, Redux, Express.js, PostgreSQL, and MongoDB. Specialization lies in constructing full-stack web applications with a focus on delivering exceptional user experiences. The dedication revolves around creating high-quality, user-friendly web applications designed to solve real-world problems. Excitement abounds for the opportunity to contribute to the success of the next project.
             </p>
             <div className="sm:w-1/2 xs:w-full mx-auto flex items-around justify-around py-5">
               <Button

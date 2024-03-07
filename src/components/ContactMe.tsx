@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
@@ -115,8 +115,8 @@ function ContactMe() {
           >
             <FaLinkedin />
           </a>
-          <a href="https://www.instagram.com/anuj_rawat22/" target="_blank">
-            <FaInstagram />
+          <a href="https://github.com/anujrawat22" target="_blank">
+            <FaGithub />
           </a>
           <a
             href="https://api.whatsapp.com/send?phone=9639068669"
