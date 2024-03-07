@@ -40,14 +40,22 @@ function About() {
             className="lg:h-1/2 lg:w-70 xs:h-5/6  object-contain shadow-2xl"
           />
         </motion.div>
-        <motion.div initial={{opacity : 0 , x : 200}} animate={{opacity : 1 , x : 0}} transition={{duration : 1 , delay : 0.3}} className=" lg:w-1/2 lg:h-full xs:h-2/3 xs:w-full flex flex-col lg:justify-center xs:justify-start xs:px-5 xs:py-10 items-center">
+        <motion.div
+          initial={{ opacity: 0, x: 200 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          className=" lg:w-1/2 lg:h-full xs:h-2/3 xs:w-full flex flex-col lg:justify-center xs:justify-start xs:px-5 xs:py-10 items-center"
+        >
           <div className="w-full lg:h-1/2 xs:h-full xs:px-5 sm:p-12 text-purple-900 text-center">
             <p className="font-medium">
-              Engineer, proactive, dynamic and multiskilled programmer with the
-              main forte in Backend Development, having knowledge of Javascript,
-              MongoDB, Express, Node.js, HTML, and CSS. Learning and technology
-              enthusiast. Currently seeking opportunities to build reliable,
-              optimised and scalable systems.
+              As a MERN stack developer, my expertise lies in creating robust,
+              dynamic, and scalable web applications using React , Node.js ,
+              Redux , Experss.js , PostgressSQL and MongoDB . I specialize in
+              building full-stack web applications with a focus on delivering
+              exceptional user experiences. I am passionate about
+              creating high-quality, user-friendly web applications that solve
+              real-world problems and look forward to working with you on your
+              next project
             </p>
             <div className="sm:w-1/2 xs:w-full mx-auto flex items-around justify-around py-5">
               <Button

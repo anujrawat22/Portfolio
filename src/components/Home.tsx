@@ -8,17 +8,17 @@ function Home() {
     visible: { opacity: 1, y: 0 },
   };
 
-  const handleScrolltoProjectSection = ()=>{
+  const handleScrolltoProjectSection = () => {
     const targetElement = document.querySelector("#project");
-      if (targetElement) {
-        const offset =
-          targetElement.getBoundingClientRect().top + window.scrollY - 50;
-        window.scrollTo({
-          top: offset,
-          behavior: "smooth",
-        });
-      }
-  }
+    if (targetElement) {
+      const offset =
+        targetElement.getBoundingClientRect().top + window.scrollY - 50;
+      window.scrollTo({
+        top: offset,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <motion.div
       initial="hidden"
@@ -33,14 +33,13 @@ function Home() {
           <h1 className=" sm:text-5xl xs:text-4xl font-extrabold text-white">
             Hey ,I'm <span className=" text-orange-500">Anuj</span>
           </h1>
-          <p className="sm:my-5 text-white text-xl">
-            I'm a Full Stack Developer
-          </p>
+          <p className="sm:my-5 text-white text-xl">A Full Stack Developer</p>
           <p className="text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            provident totam recusandae fugit in quod optio, aliquam laboriosam
-            tempore reprehenderit omnis accusamus, asperiores corporis
-            consequuntur nostrum a quam maxime? Aut!
+            An ambitious Full Stack Developer who is comfortable working with
+            both front-end and back-end technologies. 1200+ hours of coding and
+            hands-on experience in developing various Web-Apps and programs MERN
+            stack. Looking forward to working as an accountable and competent
+            employee in an exciting tech company.
           </p>
           <Button
             onClick={handleScrolltoProjectSection}
