@@ -22,29 +22,29 @@ function About() {
     window.open("https://github.com/anujrawat22", "_blank");
   };
   return (
-    <div className=" h-screen w-screen bg-purple-300" id="about">
+    <div className=" xs:h-auto w-screen  bg-purple-300 xs:py-10 lg:py-16" id="about">
       <h1 className=" xs:h-[15%]  flex justify-center items-center  text-purple-900 text-4xl ">
         About Me
       </h1>
-      <div className="xs:h-[85%] lg:flex">
+      <div className="xs:h-[85%] lg:flex items-center">
         <motion.div
           initial={{ opacity: 0, x: -200 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
-          className=" lg:h-full lg:w-1/2 xs:w-full xs:h-1/3 flex justify-center items-center"
+          className=" lg:h-full lg:w-1/2 xs:w-full xs:h-1/3 flex justify-center items-center xs:p-20  sm:px-44 sm:py-20"
         >
           <img
             src={avatar}
             alt="avatar"
             style={{ borderRadius: "50%" }}
-            className="lg:h-1/2 lg:w-70 xs:h-5/6  object-contain shadow-2xl"
+            className="lg:h-1/2 lg:w-80 xs:h-2/3  object-contain shadow-2xl"
           />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 200 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
-          className=" lg:w-1/2 lg:h-full xs:h-2/3 xs:w-full flex flex-col lg:justify-center xs:justify-start xs:px-5 xs:py-10 items-center"
+          className=" lg:w-1/2 lg:h-full xs:full xs:w-full flex flex-col lg:justify-center xs:justify-start xs:px-5 xs:py-10 items-center "
         >
           <div className="w-full lg:h-1/2 xs:h-full xs:px-5 sm:p-12 text-purple-900 text-center">
             <p className="font-medium">
